@@ -6,12 +6,12 @@ public class Consola2_1 {
 
     long num1, num2, suma;
 
-    Scanner numeros = new Scanner(System.in);
+    Scanner obtInfo = new Scanner(System.in);
 
     System.out.print("Escriu dos numeros: ");
 
-    num1 = numeros.nextLong();
-    num2 = numeros.nextLong();
+    num1 = obtInfo.nextLong();
+    num2 = obtInfo.nextLong();
 
     suma = num1 + num2;
 
